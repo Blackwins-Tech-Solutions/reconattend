@@ -26,7 +26,7 @@ app.use(bodyParser.urlencoded({ extended: false }));
 
 // for testing index page 
 app.get("/", (req, res) => {
-    res.send(`<h1>Welcome To our ReconAttendPlus App Attendance Module holass madiras!</h1>`)
+    res.send(`<h1>Welcome To our ReconAttendPlus App Attendance Module holass madira!</h1>`)
 });
 //app.use(router)
 
